@@ -1,7 +1,28 @@
 ﻿@charset "utf-8";
 
 /* 基本レイアウト ここから↓ */
-
+@import url(common.css);
+body {
+  background-color: #f3f2e9;
+  color: #5f5039;
+  /*color: Navy;*/
+  font-size: 87.5%;
+  line-height: 1.5;
+}
+header, nav, #breadcrumb, #contents, footer {
+  margin: 0 auto 0 auto;
+  width:840px;
+  /*padding: 10px 5px 15px 20px;*/
+  /*border: 1px solid #000;*/
+}
+header h1 {
+  margin: 0 0 26px 0;
+  padding-top: 28px;
+  text-align: center;
+}
+nav ul{
+  margin: 0 0 20px 0;
+}
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
