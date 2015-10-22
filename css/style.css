@@ -21,7 +21,43 @@ header h1 {
   text-align: center;
 }
 nav ul{
+  overflow: hidden;
   margin: 0 0 20px 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+nav ul li{
+  float:left;
+  width:210px;
+}
+nav ul li a{
+  overflow: hidden;
+  display: block;
+  padding-top: 44px;
+  height: 0;
+}
+nav ul li#nav_concept a{
+  background-image: url(../images/nav1.png);
+}
+nav ul li#nav_plan a{
+  background-image: url(../images/nav2.png);
+}
+nav ul li#nav_fair a{
+  background-image: url(../images/nav3.png);
+}
+nav ul li#nav_contact a{
+  background-image: url(../images/nav4.png);
+}
+#contents {
+  overflow: hidden;
+}
+#main{
+  float: left;
+  width: 570px;
+}
+#sub{
+  float: right;
+  width: 230px;
 }
 /* 基本レイアウト ここまで↑ */
 
