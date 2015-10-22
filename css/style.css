@@ -31,7 +31,7 @@ nav ul li{
   width:210px;
 }
 nav ul li a{
-  overflow: hidden;
+  /*overflow: hidden;*/
   display: block;
   padding-top: 44px;
   height: 0;
@@ -58,6 +58,21 @@ nav ul li#nav_contact a{
 #sub{
   float: right;
   width: 230px;
+}
+footer{
+  clear:both;
+  padding-top: 70px;
+}
+#main h1 {
+  margin:0 0 30px 0;
+  padding: 35px 0 35px 65px;
+  font-size: 156.25%;
+  background-image: url(../images/bg_h1_head.png), url(../images/bg_h1_bottom.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: left top,left bottom;
+}
+.bnr_inner a p img:hover {
+  opacity: 0.8;
 }
 /* 基本レイアウト ここまで↑ */
 
