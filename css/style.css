@@ -175,5 +175,25 @@ table tbody tr:nth-child(even) {
 /* 「ブライダルフェア」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
-
+form p {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+form p:nth-last-child(2) {
+  margin-bottom: 7px;
+}
+form p:last-child {
+  margin-bottom: 0;
+}
+input[type="text"] {
+  width: 200px;
+}
+input[type="email"] {
+  width: 300px;
+}
+textarea {
+  width: 420px;
+  height: 115px;
+  overflow-y: scroll;
+}
 /* 「お問い合わせ」ページ ここまで↑ */
