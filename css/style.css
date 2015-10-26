@@ -158,7 +158,20 @@ table tbody tr:nth-child(even) {
 /* 「プランのご案内」ページ ここまで↑ */
 
 /* 「ブライダルフェア」ページ ここから↓ */
-
+.gallery_box {
+  overflow: hidden;
+}
+.gallery_box figure {
+  margin: 0 0 15px 15px;
+  width: 180px;
+  float: left;
+}
+.gallery_box:first-child {
+  margin-left: 0;
+}
+.gallery_box:first-of-type {
+  margin-top: 30px;
+}
 /* 「ブライダルフェア」ページ ここまで↑ */
 
 /* 「お問い合わせ」ページ ここから↓ */
